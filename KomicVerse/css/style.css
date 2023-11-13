@@ -1,0 +1,93 @@
+body {
+       background: linear-gradient(90deg, rgba(27,26,26,1) 18%, rgba(22,19,19,1) 50%, rgba(10,10,10,1) 86%, rgb(37, 37, 37) 100%, rgb(20, 20, 20) 100%);
+}
+.logo {
+          width: 300px;
+          margin: 0px;
+          align-items: center;
+}
+.menu {
+          display: flex;
+          align-items: center;
+          font-size: 30px;
+          justify-content: space-around;
+          margin-inline: 40px;
+          transition: all 0.1ms;
+          padding: 20px;
+          
+}
+.item {
+          color: aliceblue;
+          text-align: center;
+          text-decoration: none;
+          transition: ease-in 0.1s;
+          
+}
+.item:hover {
+       color: rgb(255, 255, 255);
+       border-bottom: 2px solid white;
+       transition: ease-in-out 0.1s;
+       font-size: 35px;
+}
+a#select {
+       color: rgb(255, 255, 255);
+       border-bottom: 5px solid white;
+       transition: ease-in-out 0.1s;
+       font-size: 35px;
+}
+.notification {
+       color: white;
+       font-size: 30px;
+       transition: ease-in-out 0.1s;
+
+}
+.notification:hover {
+       color: black;
+       background-color: white;
+       transition: ease-in-out 0.1s;
+       font-size: 30px;
+       border-radius: 50%;
+       align-items: center;
+       padding: 15px;
+}
+.pesquisa {
+       background-color: white;
+       border-bottom: 6px solid white;
+       color: rgb(0, 0, 0);
+       align-items: center;
+       height: 40px;
+}
+.menu input {
+       background-color: transparent;
+       border: none;
+       color: rgb(0, 0, 0);
+       font-size: 30px;
+       padding: 5px;
+       align-items: center;
+}
+input:focus {
+       outline: none;
+       border-bottom:  rgb(0, 0, 0);
+       transition: all 1s;
+}
+
+
+.buscas {
+          align-items: center;
+          height: 2000px;
+          padding: 20px;
+          margin-inline: 100px;
+          margin-top: 20px;
+          border-radius: 6px;
+          color: aliceblue;
+}
+.mangas {
+       width: 500px;
+       height: 300px;
+       display: inline-flex;
+       background-color: rgb(0, 0, 0);
+       margin: 20px;
+       border-radius: 10px;
+       color: white;
+       text-align: center;
+}
