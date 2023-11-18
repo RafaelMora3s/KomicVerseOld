@@ -1,6 +1,10 @@
 body {
        background: linear-gradient(90deg, rgba(27,26,26,1) 18%, rgba(22,19,19,1) 50%, rgba(10,10,10,1) 86%, rgb(37, 37, 37) 100%, rgb(20, 20, 20) 100%);
 }
+.font{
+       font-family: 'Lobster', sans-serif;
+}
+
 .logo {
           width: 300px;
           margin: 0px;
@@ -9,7 +13,7 @@ body {
 .menu {
           display: flex;
           align-items: center;
-          font-size: 30px;
+          font-size: 20px;
           justify-content: space-around;
           margin-inline: 40px;
           transition: all 0.1ms;
@@ -20,6 +24,7 @@ body {
           color: aliceblue;
           text-align: center;
           text-decoration: none;
+          font-family: 'Lobster', sans-serif;
           transition: ease-in 0.1s;
           
 }
@@ -27,13 +32,13 @@ body {
        color: rgb(255, 255, 255);
        border-bottom: 2px solid white;
        transition: ease-in-out 0.1s;
-       font-size: 35px;
+       font-size: 25px;
 }
 a#select {
        color: rgb(255, 255, 255);
        border-bottom: 5px solid white;
        transition: ease-in-out 0.1s;
-       font-size: 35px;
+       font-size: 25px;
 }
 .notification {
        color: white;
@@ -55,7 +60,7 @@ a#select {
        border-bottom: 6px solid white;
        color: rgb(0, 0, 0);
        align-items: center;
-       height: 40px;
+       height: 30px;
 }
 .menu input {
        background-color: transparent;
@@ -75,7 +80,7 @@ input:focus {
 .buscas {
           align-items: center;
           height: 2000px;
-          padding: 20px;
+          padding: 45px;
           margin-inline: 100px;
           margin-top: 20px;
           border-radius: 6px;
